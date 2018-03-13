@@ -7,50 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04530647A9D52E82BF193C69FC99F580 /* UIButton+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 218C5B747285F081D7A218452A834879 /* UIButton+YLUtil.m */; };
-		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
-		0C9775800EE54796998F4A9120DE9157 /* NSDate+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F7CF00CDFEB93D5FD38A2275DD321D5 /* NSDate+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CA66A5D09DA906DE1C1BB2F28978EA3 /* YLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F24117DBAC6CF369545B29F73664713 /* YLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15FDF288C88E879D852CE156CC46595E /* YLUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F2143651D176652A8E9D9A3E04E8A /* YLUtil-dummy.m */; };
-		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		203D961953A1D7C39040E7B3C4552331 /* UITabBar+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 64C4BD526A78BF403C56BBE86E0FC03E /* UITabBar+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04530647A9D52E82BF193C69FC99F580 /* UIButton+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC8C8685E1CE34C36DD6BEB57815446 /* UIButton+YLUtil.m */; };
+		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6C02FECB0807A72B3B70F163F28702 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E10A3A3BB2E72CF8503FC03F9F651593 /* UIApplication+StrictKeyWindow.m */; };
+		0C9775800EE54796998F4A9120DE9157 /* NSDate+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F61192320207D69C49C1B2B2435B98 /* NSDate+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CA66A5D09DA906DE1C1BB2F28978EA3 /* YLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 37AC43EE90E857A76DCFE00E67AE983A /* YLUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FDF288C88E879D852CE156CC46595E /* YLUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 407E0356A8F150B2A3A7F64A1A74EDD5 /* YLUtil-dummy.m */; };
+		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C296FF7058E5BD6B36E51437277BA196 /* SwiftSupport.swift */; };
+		203D961953A1D7C39040E7B3C4552331 /* UITabBar+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 893C75FA29AAF98ECEA78DB464B0B495 /* UITabBar+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		291463AF8365E8ACD6F442076EE60479 /* Pods-YLUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2379CE09A967BC19D5DA0AF552A9 /* Pods-YLUtil_Example-dummy.m */; };
-		2C31F52E880C97D1F0B674C6AA68BC0A /* NSDate+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 570B5E030F980E955DB4417391C96285 /* NSDate+YLUtil.m */; };
-		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		4CD2248441FBA7B890A7DB78B143A7EC /* UIColor+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FD8EDEFAA1EB49A4F68A4361AE7D7DBB /* UIColor+YLUtil.m */; };
-		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
+		2C31F52E880C97D1F0B674C6AA68BC0A /* NSDate+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8002E4952C6A21BB8832504793A4E9C7 /* NSDate+YLUtil.m */; };
+		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A7B842D121144CC5FA4623402D336B /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E7ED73120EA6149994D3004B3916145 /* UIImage+Diff.m */; };
+		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D626A797559F560B8E91078292806B8F /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4CD2248441FBA7B890A7DB78B143A7EC /* UIColor+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F79850A0F4426FEC463E814158D0847 /* UIColor+YLUtil.m */; };
+		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF494EAA3696DE25F62CA5DCF925FDE0 /* FBSnapshotTestCase-dummy.m */; };
 		58C420AEBACF0C5F95DFA2258E8FB73D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		601361C43D39DA52F9EFC18F7B234FE9 /* UIImage+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EB69A4F0B3A4926CD2A528557CE7E96E /* UIImage+YLUtil.m */; };
-		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
+		601361C43D39DA52F9EFC18F7B234FE9 /* UIImage+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 233E89D79C273F2669FBC5C9539904C8 /* UIImage+YLUtil.m */; };
+		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 88391A6AE315CF2829719D5CBEB811C0 /* UIImage+Compare.m */; };
 		715A5B94C27CC84C8D2A3D121D127CAC /* Pods-YLUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A19641B3E84420229C8ECDD9AB407BA1 /* Pods-YLUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72BD073AA3B09B3A1AC0D9B366A003FD /* YLUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2268DEED4E362097819D9E9EA1AAB9 /* YLUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		72BD073AA3B09B3A1AC0D9B366A003FD /* YLUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 689A1E1881DEF9A53206FC75DA4100FC /* YLUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = F05F8FB8577F093E764F5C9DC5E9EB1F /* UIImage+Snapshot.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
-		84231FEF31B1829CDD8DD7A29CD7DFF3 /* UITextField+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 46FDB305ADFC97D57075219A981E9D1A /* UITextField+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84231FEF31B1829CDD8DD7A29CD7DFF3 /* UITextField+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = AC459E0DE4F3ADE6613CF5641D252D25 /* UITextField+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		903B62EE2C5D1F33088A8FBACA42D7B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		92B8FF8BF192E93D8D275B06E2E47EE1 /* UIButton+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 64034A4FA58B70BC27EA1E47028C38A3 /* UIButton+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F321D47BCACD72B57F879B7E9A47AEF /* UIImage+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 12707EA7C6C45DE6A5E3B77FF40073EB /* UIImage+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		AC998057140149D56F59A39EC12C3E86 /* UIColor+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E61FCE3CFB52D0336F1991AC0D2BFE3 /* UIColor+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B8FF8BF192E93D8D275B06E2E47EE1 /* UIButton+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 83ECD4E210143C6C0B32AE446ADF2372 /* UIButton+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4166302ED4DABCBBF1DA1B6C7E3CE4 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F321D47BCACD72B57F879B7E9A47AEF /* UIImage+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B0641A15DF9B5CC51B63561D6A20B3CB /* UIImage+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55E0D1E8471C7A8714B59B37D4BC56CD /* FBSnapshotTestController.m */; };
+		AC998057140149D56F59A39EC12C3E86 /* UIColor+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 90A71C23F32A69265D4D130A79D98720 /* UIColor+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
-		B6283EBD6CF5E18B43723AB90AF553FD /* NSString+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D3605A4949FE2E4F5FA557D838461FE /* NSString+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
-		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C57A9A1E3BDC2082D60D465342FA48F4 /* UITabBar+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BEF0E632D5D14880902042707038F890 /* UITabBar+YLUtil.m */; };
-		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B6283EBD6CF5E18B43723AB90AF553FD /* NSString+YLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = BE98E534A542C5F5196D188C9232DF50 /* NSString+YLUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BB86C837643601B57F41B83ECDD1411 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = FB125D71E6F0E1052436E11CBDA9881E /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = D2ECD9FECF9E828F43B41AB6BBA99666 /* FBSnapshotTestCase.m */; };
+		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = BC4F7585067A0C08EBCDC85F9D9F65F8 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57A9A1E3BDC2082D60D465342FA48F4 /* UITabBar+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4757C86F10AB8D7D990295DF0A532C34 /* UITabBar+YLUtil.m */; };
+		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = E424957AC969FE4884D2D130E28E07E0 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DA2701ACC717843BDDA11EC68906815A /* Pods-YLUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77114A65AFA6DF92770D53CA165E0B36 /* Pods-YLUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA920A7D6AE651CBD70120E40735C2E9 /* UITextField+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 2103ABF1ECE3F5B6EC5D29B9EA35AF42 /* UITextField+YLUtil.m */; };
-		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
+		DA920A7D6AE651CBD70120E40735C2E9 /* UITextField+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 025173560A0DF5A3C974159FC8BA07A9 /* UITextField+YLUtil.m */; };
+		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E7286918B8EBC8F2C7E150020E33BC /* FBSnapshotTestCasePlatform.m */; };
 		DCDA915FDF2B946F515430B71423C550 /* Pods-YLUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E77A2E75F6D09DB3B0E7FCA039C284F6 /* Pods-YLUtil_Tests-dummy.m */; };
-		DD633E4B3D96E62E10EF412C4347C113 /* NSString+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FF1F9C5FCEDC6A5CFBDC937352B9945 /* NSString+YLUtil.m */; };
+		DD633E4B3D96E62E10EF412C4347C113 /* NSString+YLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4778FC2A1643709A1D8CCF22AC002F /* NSString+YLUtil.m */; };
 		F5A52561DEE513FE49F0895AAF968D05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,80 +72,77 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		025173560A0DF5A3C974159FC8BA07A9 /* UITextField+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YLUtil.m"; path = "YLUtil/Classes/UITextField+YLUtil.m"; sourceTree = "<group>"; };
 		041B855E2322ADA6C18899295D4F9B20 /* Pods-YLUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLUtil_Example.modulemap"; sourceTree = "<group>"; };
-		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		0BAE32059D40D5EE563351BF27F6FA20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		0D8E6D793BB330830C329AA1CE46A306 /* Pods-YLUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLUtil_Tests-resources.sh"; sourceTree = "<group>"; };
-		0F7CF00CDFEB93D5FD38A2275DD321D5 /* NSDate+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YLUtil.h"; path = "YLUtil/Classes/NSDate+YLUtil.h"; sourceTree = "<group>"; };
-		121C53C0B8EA97EDDB169D33D42FB005 /* YLUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLUtil-prefix.pch"; sourceTree = "<group>"; };
-		12707EA7C6C45DE6A5E3B77FF40073EB /* UIImage+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLUtil.h"; path = "YLUtil/Classes/UIImage+YLUtil.h"; sourceTree = "<group>"; };
+		0F79850A0F4426FEC463E814158D0847 /* UIColor+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YLUtil.m"; path = "YLUtil/Classes/UIColor+YLUtil.m"; sourceTree = "<group>"; };
 		1339FDCC286413DA3D9FFFB5817DAA70 /* Pods-YLUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		1E61FCE3CFB52D0336F1991AC0D2BFE3 /* UIColor+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YLUtil.h"; path = "YLUtil/Classes/UIColor+YLUtil.h"; sourceTree = "<group>"; };
-		1F24117DBAC6CF369545B29F73664713 /* YLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLUtils.h; path = YLUtil/Classes/YLUtils.h; sourceTree = "<group>"; };
-		2103ABF1ECE3F5B6EC5D29B9EA35AF42 /* UITextField+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+YLUtil.m"; path = "YLUtil/Classes/UITextField+YLUtil.m"; sourceTree = "<group>"; };
-		218C5B747285F081D7A218452A834879 /* UIButton+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YLUtil.m"; path = "YLUtil/Classes/UIButton+YLUtil.m"; sourceTree = "<group>"; };
+		1D4778FC2A1643709A1D8CCF22AC002F /* NSString+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YLUtil.m"; path = "YLUtil/Classes/NSString+YLUtil.m"; sourceTree = "<group>"; };
+		1E7ED73120EA6149994D3004B3916145 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		22DB51B601DC83FD5E7F515D93F83B03 /* Pods-YLUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		233E89D79C273F2669FBC5C9539904C8 /* UIImage+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLUtil.m"; path = "YLUtil/Classes/UIImage+YLUtil.m"; sourceTree = "<group>"; };
 		298A4F8C9346C95622D53E40DF581DC8 /* Pods-YLUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2A57385665AEF06342DF6E17D5BCAFD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		29E7286918B8EBC8F2C7E150020E33BC /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		2F8D2379CE09A967BC19D5DA0AF552A9 /* Pods-YLUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLUtil_Example-dummy.m"; sourceTree = "<group>"; };
-		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		37AC43EE90E857A76DCFE00E67AE983A /* YLUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YLUtils.h; path = YLUtil/Classes/YLUtils.h; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		3C127F6F821F707260C8BB5A8BD9E9AC /* Pods-YLUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		46FDB305ADFC97D57075219A981E9D1A /* UITextField+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YLUtil.h"; path = "YLUtil/Classes/UITextField+YLUtil.h"; sourceTree = "<group>"; };
-		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		407E0356A8F150B2A3A7F64A1A74EDD5 /* YLUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLUtil-dummy.m"; sourceTree = "<group>"; };
+		46CB0EA0A34A83B8F330D6AD82995C50 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		4757C86F10AB8D7D990295DF0A532C34 /* UITabBar+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+YLUtil.m"; path = "YLUtil/Classes/UITabBar+YLUtil.m"; sourceTree = "<group>"; };
 		4E273121580FBC98E8D4510A0967DFFA /* Pods-YLUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YLUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		53D61ED5462CB041FB75C909815B0B75 /* Pods-YLUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		570B5E030F980E955DB4417391C96285 /* NSDate+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YLUtil.m"; path = "YLUtil/Classes/NSDate+YLUtil.m"; sourceTree = "<group>"; };
-		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5D3605A4949FE2E4F5FA557D838461FE /* NSString+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YLUtil.h"; path = "YLUtil/Classes/NSString+YLUtil.h"; sourceTree = "<group>"; };
+		55E0D1E8471C7A8714B59B37D4BC56CD /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		5BB86C837643601B57F41B83ECDD1411 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		5FEDA6A1DABFC971B1B4F0FDFE4E9466 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FF1F9C5FCEDC6A5CFBDC937352B9945 /* NSString+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YLUtil.m"; path = "YLUtil/Classes/NSString+YLUtil.m"; sourceTree = "<group>"; };
-		64034A4FA58B70BC27EA1E47028C38A3 /* UIButton+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YLUtil.h"; path = "YLUtil/Classes/UIButton+YLUtil.h"; sourceTree = "<group>"; };
-		64C4BD526A78BF403C56BBE86E0FC03E /* UITabBar+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+YLUtil.h"; path = "YLUtil/Classes/UITabBar+YLUtil.h"; sourceTree = "<group>"; };
-		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D6F2143651D176652A8E9D9A3E04E8A /* YLUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YLUtil-dummy.m"; sourceTree = "<group>"; };
+		633F8D6A2C59112EE39B9C77F4F5EA61 /* YLUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLUtil.modulemap; sourceTree = "<group>"; };
+		689A1E1881DEF9A53206FC75DA4100FC /* YLUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLUtil-umbrella.h"; sourceTree = "<group>"; };
 		767F8BFFC2C34DB658B46B000611136B /* Pods_YLUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLUtil_Tests.framework; path = "Pods-YLUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		77114A65AFA6DF92770D53CA165E0B36 /* Pods-YLUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLUtil_Example-umbrella.h"; sourceTree = "<group>"; };
 		7B1BF8FAD38C6431F696BE673B19EB27 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
-		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		8002E4952C6A21BB8832504793A4E9C7 /* NSDate+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YLUtil.m"; path = "YLUtil/Classes/NSDate+YLUtil.m"; sourceTree = "<group>"; };
+		83ECD4E210143C6C0B32AE446ADF2372 /* UIButton+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+YLUtil.h"; path = "YLUtil/Classes/UIButton+YLUtil.h"; sourceTree = "<group>"; };
 		877EE964CB08B1E050BC387ACC5EF224 /* Pods-YLUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YLUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		88391A6AE315CF2829719D5CBEB811C0 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		893C75FA29AAF98ECEA78DB464B0B495 /* UITabBar+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+YLUtil.h"; path = "YLUtil/Classes/UITabBar+YLUtil.h"; sourceTree = "<group>"; };
 		894915DA94470F11D85F15FA6440A908 /* Pods-YLUtil_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLUtil_Example-resources.sh"; sourceTree = "<group>"; };
+		8BC8C8685E1CE34C36DD6BEB57815446 /* UIButton+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+YLUtil.m"; path = "YLUtil/Classes/UIButton+YLUtil.m"; sourceTree = "<group>"; };
+		90A71C23F32A69265D4D130A79D98720 /* UIColor+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YLUtil.h"; path = "YLUtil/Classes/UIColor+YLUtil.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9C2268DEED4E362097819D9E9EA1AAB9 /* YLUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLUtil-umbrella.h"; sourceTree = "<group>"; };
-		9C944606D28567D8C83992A9124B0A18 /* YLUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YLUtil.modulemap; sourceTree = "<group>"; };
 		9FA3B21960A3C6DF3FD1F04A55768CCD /* Pods-YLUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YLUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		A07BB3D6DBCBDBAC9551F364E7D27A9D /* YLUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YLUtil-prefix.pch"; sourceTree = "<group>"; };
 		A19641B3E84420229C8ECDD9AB407BA1 /* Pods-YLUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YLUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A77DC53B1B0778F10F9C1CBEC41F8386 /* YLUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLUtil.xcconfig; sourceTree = "<group>"; };
+		A3F61192320207D69C49C1B2B2435B98 /* NSDate+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YLUtil.h"; path = "YLUtil/Classes/NSDate+YLUtil.h"; sourceTree = "<group>"; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		AD1DA6E86EEEC7FCB8052C9A0E3C3DD4 /* YLUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = YLUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
-		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		BB8AE23C83427960EABB8D60CB556088 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		BEF0E632D5D14880902042707038F890 /* UITabBar+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+YLUtil.m"; path = "YLUtil/Classes/UITabBar+YLUtil.m"; sourceTree = "<group>"; };
+		AA4166302ED4DABCBBF1DA1B6C7E3CE4 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		AC459E0DE4F3ADE6613CF5641D252D25 /* UITextField+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+YLUtil.h"; path = "YLUtil/Classes/UITextField+YLUtil.h"; sourceTree = "<group>"; };
+		AE18F60551A52C32892E256C4AA5FDF8 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		B0641A15DF9B5CC51B63561D6A20B3CB /* UIImage+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+YLUtil.h"; path = "YLUtil/Classes/UIImage+YLUtil.h"; sourceTree = "<group>"; };
+		BC4F7585067A0C08EBCDC85F9D9F65F8 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		BE98E534A542C5F5196D188C9232DF50 /* NSString+YLUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YLUtil.h"; path = "YLUtil/Classes/NSString+YLUtil.h"; sourceTree = "<group>"; };
 		BEFE6A4BF201123B09B6008D8E9D2000 /* YLUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YLUtil.framework; path = YLUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07D16F36101DBF32D269C1C19224350 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C296FF7058E5BD6B36E51437277BA196 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		C65EECBDCF9EC5BC14C95B7F3C4C8CB2 /* YLUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YLUtil.xcconfig; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D02040DED138676917DAE9D1AF33F218 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0A7B842D121144CC5FA4623402D336B /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		D2ECD9FECF9E828F43B41AB6BBA99666 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		D582BE7A4FEA2C3E1140574CDC4F3BA5 /* Pods-YLUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YLUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		D626A797559F560B8E91078292806B8F /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		DF494EAA3696DE25F62CA5DCF925FDE0 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		E10A3A3BB2E72CF8503FC03F9F651593 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		E2EA87E3034D12B1BCF701766AD95FC7 /* Pods-YLUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		E424957AC969FE4884D2D130E28E07E0 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		E77A2E75F6D09DB3B0E7FCA039C284F6 /* Pods-YLUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YLUtil_Tests-dummy.m"; sourceTree = "<group>"; };
-		EB69A4F0B3A4926CD2A528557CE7E96E /* UIImage+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+YLUtil.m"; path = "YLUtil/Classes/UIImage+YLUtil.m"; sourceTree = "<group>"; };
 		EB7F60254F22394A4CEB6435452F9BE4 /* Pods_YLUtil_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YLUtil_Example.framework; path = "Pods-YLUtil_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97D6EC8DD3EB0A76BF306EFF07026E /* Pods-YLUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YLUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		F9187D2542BCEBFC21DC7D0AA5236FE2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		FD8EDEFAA1EB49A4F68A4361AE7D7DBB /* UIColor+YLUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YLUtil.m"; path = "YLUtil/Classes/UIColor+YLUtil.m"; sourceTree = "<group>"; };
+		EF6C02FECB0807A72B3B70F163F28702 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		F05F8FB8577F093E764F5C9DC5E9EB1F /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		F376FC5CAB72E92C6E9C4AFAC12754DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB125D71E6F0E1052436E11CBDA9881E /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,37 +210,18 @@
 			path = "Target Support Files/Pods-YLUtil_Example";
 			sourceTree = "<group>";
 		};
-		1A554B5D9BC31A78E0B4F060E47E7C81 /* Development Pods */ = {
+		39A1D68766509D482CD66228FF1A9128 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5CF626DD674E4FD9C64488B1C58EBBA2 /* YLUtil */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */ = {
-			isa = PBXGroup;
-			children = (
-				F35791481CAFDD8E7715AE1B44687328 /* Core */,
-				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
-				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
-			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */,
-				7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */,
-				4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */,
-				EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */,
-				A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */,
-				67E276593855381568F725E69496F29C /* Info.plist */,
+				F376FC5CAB72E92C6E9C4AFAC12754DF /* Info.plist */,
+				633F8D6A2C59112EE39B9C77F4F5EA61 /* YLUtil.modulemap */,
+				C65EECBDCF9EC5BC14C95B7F3C4C8CB2 /* YLUtil.xcconfig */,
+				407E0356A8F150B2A3A7F64A1A74EDD5 /* YLUtil-dummy.m */,
+				A07BB3D6DBCBDBAC9551F364E7D27A9D /* YLUtil-prefix.pch */,
+				689A1E1881DEF9A53206FC75DA4100FC /* YLUtil-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
+			path = "../Target Support Files/YLUtil";
 			sourceTree = "<group>";
 		};
 		3B01BFE8A9991F1E2259FEEE0C936202 /* Targets Support Files */ = {
@@ -255,48 +233,66 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5CF626DD674E4FD9C64488B1C58EBBA2 /* YLUtil */ = {
+		3C365259DB01DF61120EB07ACD2206FC /* YLUtil */ = {
 			isa = PBXGroup;
 			children = (
-				0F7CF00CDFEB93D5FD38A2275DD321D5 /* NSDate+YLUtil.h */,
-				570B5E030F980E955DB4417391C96285 /* NSDate+YLUtil.m */,
-				5D3605A4949FE2E4F5FA557D838461FE /* NSString+YLUtil.h */,
-				5FF1F9C5FCEDC6A5CFBDC937352B9945 /* NSString+YLUtil.m */,
-				64034A4FA58B70BC27EA1E47028C38A3 /* UIButton+YLUtil.h */,
-				218C5B747285F081D7A218452A834879 /* UIButton+YLUtil.m */,
-				1E61FCE3CFB52D0336F1991AC0D2BFE3 /* UIColor+YLUtil.h */,
-				FD8EDEFAA1EB49A4F68A4361AE7D7DBB /* UIColor+YLUtil.m */,
-				12707EA7C6C45DE6A5E3B77FF40073EB /* UIImage+YLUtil.h */,
-				EB69A4F0B3A4926CD2A528557CE7E96E /* UIImage+YLUtil.m */,
-				64C4BD526A78BF403C56BBE86E0FC03E /* UITabBar+YLUtil.h */,
-				BEF0E632D5D14880902042707038F890 /* UITabBar+YLUtil.m */,
-				46FDB305ADFC97D57075219A981E9D1A /* UITextField+YLUtil.h */,
-				2103ABF1ECE3F5B6EC5D29B9EA35AF42 /* UITextField+YLUtil.m */,
-				1F24117DBAC6CF369545B29F73664713 /* YLUtils.h */,
-				5F7D683B60D3E2E3A4CA6B9E78DB0C7E /* Pod */,
-				C0D830FB15E66DF41798F944BC66DAA2 /* Support Files */,
+				A3F61192320207D69C49C1B2B2435B98 /* NSDate+YLUtil.h */,
+				8002E4952C6A21BB8832504793A4E9C7 /* NSDate+YLUtil.m */,
+				BE98E534A542C5F5196D188C9232DF50 /* NSString+YLUtil.h */,
+				1D4778FC2A1643709A1D8CCF22AC002F /* NSString+YLUtil.m */,
+				83ECD4E210143C6C0B32AE446ADF2372 /* UIButton+YLUtil.h */,
+				8BC8C8685E1CE34C36DD6BEB57815446 /* UIButton+YLUtil.m */,
+				90A71C23F32A69265D4D130A79D98720 /* UIColor+YLUtil.h */,
+				0F79850A0F4426FEC463E814158D0847 /* UIColor+YLUtil.m */,
+				B0641A15DF9B5CC51B63561D6A20B3CB /* UIImage+YLUtil.h */,
+				233E89D79C273F2669FBC5C9539904C8 /* UIImage+YLUtil.m */,
+				893C75FA29AAF98ECEA78DB464B0B495 /* UITabBar+YLUtil.h */,
+				4757C86F10AB8D7D990295DF0A532C34 /* UITabBar+YLUtil.m */,
+				AC459E0DE4F3ADE6613CF5641D252D25 /* UITextField+YLUtil.h */,
+				025173560A0DF5A3C974159FC8BA07A9 /* UITextField+YLUtil.m */,
+				37AC43EE90E857A76DCFE00E67AE983A /* YLUtils.h */,
+				39A1D68766509D482CD66228FF1A9128 /* Support Files */,
 			);
 			name = YLUtil;
-			path = ../..;
+			path = YLUtil;
 			sourceTree = "<group>";
 		};
-		5F7D683B60D3E2E3A4CA6B9E78DB0C7E /* Pod */ = {
+		5EE4F4003C7E30F5709B75442F0AFEA5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F9187D2542BCEBFC21DC7D0AA5236FE2 /* LICENSE */,
-				BB8AE23C83427960EABB8D60CB556088 /* README.md */,
-				AD1DA6E86EEEC7FCB8052C9A0E3C3DD4 /* YLUtil.podspec */,
+				D992650C2563CDF5DAF9995A77FC6015 /* FBSnapshotTestCase */,
+				3C365259DB01DF61120EB07ACD2206FC /* YLUtil */,
 			);
-			name = Pod;
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71662C3DEF4B548517899206342C11B2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AA4166302ED4DABCBBF1DA1B6C7E3CE4 /* FBSnapshotTestCase.h */,
+				D2ECD9FECF9E828F43B41AB6BBA99666 /* FBSnapshotTestCase.m */,
+				BC4F7585067A0C08EBCDC85F9D9F65F8 /* FBSnapshotTestCasePlatform.h */,
+				29E7286918B8EBC8F2C7E150020E33BC /* FBSnapshotTestCasePlatform.m */,
+				D0A7B842D121144CC5FA4623402D336B /* FBSnapshotTestController.h */,
+				55E0D1E8471C7A8714B59B37D4BC56CD /* FBSnapshotTestController.m */,
+				FB125D71E6F0E1052436E11CBDA9881E /* UIApplication+StrictKeyWindow.h */,
+				E10A3A3BB2E72CF8503FC03F9F651593 /* UIApplication+StrictKeyWindow.m */,
+				E424957AC969FE4884D2D130E28E07E0 /* UIImage+Compare.h */,
+				88391A6AE315CF2829719D5CBEB811C0 /* UIImage+Compare.m */,
+				EF6C02FECB0807A72B3B70F163F28702 /* UIImage+Diff.h */,
+				1E7ED73120EA6149994D3004B3916145 /* UIImage+Diff.m */,
+				D626A797559F560B8E91078292806B8F /* UIImage+Snapshot.h */,
+				F05F8FB8577F093E764F5C9DC5E9EB1F /* UIImage+Snapshot.m */,
+			);
+			name = Core;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1A554B5D9BC31A78E0B4F060E47E7C81 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
+				5EE4F4003C7E30F5709B75442F0AFEA5 /* Pods */,
 				81904D3A3F1FA320732B09CEDD6E0342 /* Products */,
 				3B01BFE8A9991F1E2259FEEE0C936202 /* Targets Support Files */,
 			);
@@ -324,14 +320,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
-			sourceTree = "<group>";
-		};
 		B5C5883BEBAA3EB19C6451DF448FD7BB /* Pods-YLUtil_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -350,47 +338,37 @@
 			path = "Target Support Files/Pods-YLUtil_Tests";
 			sourceTree = "<group>";
 		};
-		C0D830FB15E66DF41798F944BC66DAA2 /* Support Files */ = {
+		D992650C2563CDF5DAF9995A77FC6015 /* FBSnapshotTestCase */ = {
 			isa = PBXGroup;
 			children = (
-				2A57385665AEF06342DF6E17D5BCAFD2 /* Info.plist */,
-				9C944606D28567D8C83992A9124B0A18 /* YLUtil.modulemap */,
-				A77DC53B1B0778F10F9C1CBEC41F8386 /* YLUtil.xcconfig */,
-				6D6F2143651D176652A8E9D9A3E04E8A /* YLUtil-dummy.m */,
-				121C53C0B8EA97EDDB169D33D42FB005 /* YLUtil-prefix.pch */,
-				9C2268DEED4E362097819D9E9EA1AAB9 /* YLUtil-umbrella.h */,
+				71662C3DEF4B548517899206342C11B2 /* Core */,
+				FAF21392E676A1E5B60C7CE97F28115F /* Support Files */,
+				EEB83E03170AC296C2CCBE2954A652C5 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		EEB83E03170AC296C2CCBE2954A652C5 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				C296FF7058E5BD6B36E51437277BA196 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		FAF21392E676A1E5B60C7CE97F28115F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CB0EA0A34A83B8F330D6AD82995C50 /* FBSnapshotTestCase.modulemap */,
+				0BAE32059D40D5EE563351BF27F6FA20 /* FBSnapshotTestCase.xcconfig */,
+				DF494EAA3696DE25F62CA5DCF925FDE0 /* FBSnapshotTestCase-dummy.m */,
+				AE18F60551A52C32892E256C4AA5FDF8 /* FBSnapshotTestCase-prefix.pch */,
+				5BB86C837643601B57F41B83ECDD1411 /* FBSnapshotTestCase-umbrella.h */,
+				D02040DED138676917DAE9D1AF33F218 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YLUtil";
-			sourceTree = "<group>";
-		};
-		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */,
-				39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */,
-				7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */,
-				58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */,
-				1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */,
-				052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */,
-				B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */,
-				2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */,
-				432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */,
-				3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */,
-				85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */,
-				B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */,
-				0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */,
-				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
-		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				2287B5EBEAA3C332F8DB9A1E61F5B097 /* FBSnapshotTestCase */,
-			);
-			name = Pods;
+			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -647,7 +625,7 @@
 		};
 		359FCBA8A42B7DECCB99E1A73B66B15C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A77DC53B1B0778F10F9C1CBEC41F8386 /* YLUtil.xcconfig */;
+			baseConfigurationReference = C65EECBDCF9EC5BC14C95B7F3C4C8CB2 /* YLUtil.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -772,7 +750,7 @@
 		};
 		517719E0561D64906B2C4B501F89F7B5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A77DC53B1B0778F10F9C1CBEC41F8386 /* YLUtil.xcconfig */;
+			baseConfigurationReference = C65EECBDCF9EC5BC14C95B7F3C4C8CB2 /* YLUtil.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -926,7 +904,7 @@
 		};
 		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 0BAE32059D40D5EE563351BF27F6FA20 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -957,7 +935,7 @@
 		};
 		CEA992D818C17C13A97E42D0734BF7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
+			baseConfigurationReference = 0BAE32059D40D5EE563351BF27F6FA20 /* FBSnapshotTestCase.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

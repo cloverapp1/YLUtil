@@ -12,7 +12,7 @@
     "cloverapp1": "2510479687@qq.com"
   },
   "source": {
-    "git": "https://github.com/cloverapp1/YLUtil",
+    "git": "https://github.com/cloverapp1/YLUtil.git",
     "tag": "0.1.0"
   },
   "platforms": {

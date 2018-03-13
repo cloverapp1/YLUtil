@@ -93,18 +93,18 @@
  */
 - (BOOL)VerifyToNSNumber;
 
-
 /**
  验证车牌
 
- @return return value description
+ @param BOOL <#BOOL description#>
+ @return <#return value description#>
  */
 - (BOOL)VerifyCarNo;
-
 
 /**
  验证手机号码
 
+ @param BOOL <#BOOL description#>
  @return <#return value description#>
  */
 - (BOOL)VerifyPhone;
