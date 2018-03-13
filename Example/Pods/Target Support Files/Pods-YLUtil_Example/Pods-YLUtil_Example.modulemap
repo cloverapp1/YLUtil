@@ -1,0 +1,6 @@
+framework module Pods_YLUtil_Example {
+  umbrella header "Pods-YLUtil_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

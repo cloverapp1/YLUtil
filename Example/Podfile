@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YLUtil_Example' do
+  pod 'YLUtil', :path => '../'
+
+  target 'YLUtil_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

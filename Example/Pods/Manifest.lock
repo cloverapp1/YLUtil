@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YLUtil (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YLUtil (from `../`)
+
+EXTERNAL SOURCES:
+  YLUtil:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YLUtil: c28c4af73d9aa768bda3bf3e4820744d842651b8
+
+PODFILE CHECKSUM: 31734fab8879ebe6469c0fe93b4aa415881c4356
+
+COCOAPODS: 1.4.0
